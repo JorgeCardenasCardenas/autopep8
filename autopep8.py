@@ -111,7 +111,7 @@ SHORTEN_OPERATOR_GROUPS = frozenset([
 
 
 DEFAULT_IGNORE = 'E226,E24,W50,W690'    # TODO: use pycodestyle.DEFAULT_IGNORE
-DEFAULT_INDENT_SIZE = 4
+DEFAULT_INDENT_SIZE = 2
 # these fixes conflict with each other, if the `--ignore` setting causes both
 # to be enabled, disable both of them
 CONFLICTING_CODES = ('W503', 'W504')
