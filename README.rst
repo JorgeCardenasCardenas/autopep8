@@ -28,13 +28,7 @@ issues_ that can be reported by pycodestyle.
 Installation
 ============
 
-From pip::
-
-    $ pip install --upgrade autopep8
-
-Consider using the ``--user`` option_.
-
-.. _option: https://pip.pypa.io/en/latest/user_guide/#user-installs
+    $ pip3 install -e git+https://github.com/JorgeCardenasCardenas/autopep8.git#egg=autopep8
 
 
 Requirements
